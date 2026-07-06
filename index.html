@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Soundboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="soundboard-container">
+        <h1>🎵 Mini Soundboard</h1>
+        
+        <div class="controls">
+            <div class="volume-container">
+                <label for="volume">Volume:</label>
+                <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5">
+            </div>
+            <button id="stop-all" class="btn-stop">🛑 Stop All</button>
+        </div>
+
+        <hr>
+
+        <div class="sound-grid">
+            <button class="sound-btn" data-sound="airhorn">📯 Airhorn</button>
+            <button class="sound-btn" data-sound="applause">👏 Applause</button>
+            <button class="sound-btn" data-sound="ba-dum-tss">🥁 Drum Roll</button>
+            <button class="sound-btn" data-sound="crickets">🦗 Crickets</button>
+            <button class="sound-btn" data-sound="fail">📉 Price is Wrong</button>
+            <button class="sound-btn" data-sound="gasp">😮 Gasp</button>
+            <button class="sound-btn" data-sound="laser">🔫 Laser</button>
+            <button class="sound-btn" data-sound="sad-trombone">🎺 Trombone</button>
+            <button class="sound-btn" data-sound="victory">🏆 Fanfare</button>
+            <button class="sound-btn" data-sound="vine-boom">💥 Vine Boom</button>
+            <button class="sound-btn" data-sound="wah-wah">😢 Wah Wah</button>
+            <button class="sound-btn" data-sound="wilhelm">😱 Scream</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
